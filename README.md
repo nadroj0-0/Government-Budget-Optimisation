@@ -52,8 +52,7 @@ The dataset used in this project consists of **real-world government spending da
 - Run this in a new script or interactive window:
 
   ```python
-  import pip
-  pip.main(['install', '-r', 'requirements.txt'])
+  pip install -r requirements.txt
   ```
 ### Running the Model
 1. Open **Budget Optimisation Model Solver.py** in your Python environment.
