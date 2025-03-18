@@ -42,6 +42,28 @@ The dataset used in this project consists of **real-world government spending da
 4. **Comparison**: The model’s results are compared with **model-defined constraints**.
 
 ## Installation & Usage
+
+### Prerequisites
+- You need **Python 3.7 or later** installed.
+- Download and install Python from [python.org](https://www.python.org/downloads/) if you don’t have it.
+
+### Installing Required Packages
+- Open any Python environment.
+- Run this in a new script or interactive window:
+
+  ```python
+  import pip
+  pip.main(['install', '-r', 'requirements.txt'])
+  ```
+### Running the Model
+1. Open **Budget Optimisation Model Solver.py** in your Python environment.
+2. Click **Run** .
+3. The script will produce an output CSV file containing optimised budget allocations for various parameter values.
+
+### Output File
+- The results are saved as **"optimization_results_<timestamp>.csv"**, my results are uploaded inside the **results** folder.
+- If needed, you can modify the filename directly inside the script.
+
 ## Future Improvements
 - Extending the model with **stochastic optimisation** to account for uncertainty in revenue generation.
 - Incorporating **machine learning forecasting** for better budget predictions.
