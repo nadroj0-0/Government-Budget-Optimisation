@@ -23,22 +23,23 @@ The model leverages **a sigmoid trade-off function** to optimise budget allocati
 - **Trade-off parameter adjustments** significantly impacted funding allocation dynamics.
 
 ## Data Sources
-The dataset used in this project consists of real world government spending data, which was cleaned and structured for analysis. 
+The dataset used in this project consists of **real-world government spending data**, which was cleaned and structured for analysis.
 
-- **Sector Spending Data.csv**  
-  - Contains raw budget data sourced from official government reports and the ONS (Office for National Statistics).
-  - Includes columns for sector wise expenditure, net income, net expenditure, minimum required funding, and actual government budget allocations.
+### **Sector Spending Data.csv**
+- Contains raw budget data sourced from **official government reports and the ONS (Office for National Statistics)**.
+- Includes columns for **sector-wise expenditure, net income, net expenditure, minimum required funding, and actual government budget allocations**.
 
-- **Optimised Results Data.csv**  
-  - Stores the **model-generated optimal budget allocations** based on applied constraints.
-  - Includes a **comparison column** showing the difference between **model minimum budget allocation constraints vs. model predictions**.
-  - Useful for understanding how effective the model is at allocating based on sector wise priority.
+### **Optimised Results Data.csv**
+- Stores the **model-generated optimal budget allocations** based on applied constraints.
+- Includes a **comparison column** showing the difference between:
+  - **Model minimum budget allocation constraints vs. Model predictions.**
+- Useful for understanding how **effectively the model prioritises different sectors**.
 
 ## How It Works
 1. **Data Processing**: The budget dataset is preprocessed for analysis.
-2. **Model Formulation**: A mathematical optimisation model is developed to allocate funds efficiently.
+2. **Model Formulation**: A **mathematical optimisation model** is developed to allocate funds efficiently.
 3. **Solving the Problem**: The model is executed using Python to compute optimal allocations.
-4. **Comparison**: The model’s results are compared with the constraints of the model.
+4. **Comparison**: The model’s results are compared with **model-defined constraints**.
 
 ## Installation & Usage
 ## Future Improvements
