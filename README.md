@@ -22,6 +22,25 @@ The model leverages **a sigmoid trade-off function** to optimise budget allocati
 - Using **α ≈ 0.47**, critical sectors received budget increases of **~£700 million**.
 - **Trade-off parameter adjustments** significantly impacted funding allocation dynamics.
 
+## Data Sources
+The dataset used in this project consists of real world government spending data, which was cleaned and structured for analysis. 
+
+- **Sector Spending Data.csv**  
+  - Contains raw budget data sourced from official government reports and the ONS (Office for National Statistics).
+  - Includes columns for sector wise expenditure, net income, net expenditure, minimum required funding, and actual government budget allocations.
+
+- **Optimised Results Data.csv**  
+  - Stores the **model-generated optimal budget allocations** based on applied constraints.
+  - Includes a **comparison column** showing the difference between **model minimum budget allocation constraints vs. model predictions**.
+  - Useful for understanding how effective the model is at allocating based on sector wise priority.
+
+## How It Works
+1. **Data Processing**: The budget dataset is preprocessed for analysis.
+2. **Model Formulation**: A mathematical optimisation model is developed to allocate funds efficiently.
+3. **Solving the Problem**: The model is executed using Python to compute optimal allocations.
+4. **Comparison**: The model’s results are compared with the constraints of the model.
+
+## Installation & Usage
 ## Future Improvements
 - Extending the model with **stochastic optimisation** to account for uncertainty in revenue generation.
 - Incorporating **machine learning forecasting** for better budget predictions.
