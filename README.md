@@ -14,7 +14,7 @@ The model leverages **a sigmoid trade-off function** to optimise budget allocati
 
 ## Implementation Details
 - **Programming Language:** Python
-- **Libraries Used:** NumPy, SciPy, CVXOPT
+- **Libraries Used:** NumPy, CVXOPT, CSV, TQDM, time
 - **Solver:** The model is solved using a **linear programming approach**.
 
 ## Results & Findings
